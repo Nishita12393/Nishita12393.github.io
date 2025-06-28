@@ -1,20 +1,16 @@
-/* Custom styles */
 body {
+  font-family: 'Segoe UI', sans-serif;
   scroll-behavior: smooth;
 }
 
-#about, #projects, #contact {
-  padding-top: 4rem;
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
 }
 
-.card-title {
-  color: #0d6efd;
-}
-
-a {
-  color: #0d6efd;
-}
-
-a:hover {
-  text-decoration: underline;
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid white;
 }
