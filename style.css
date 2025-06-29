@@ -1,16 +1,11 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  scroll-behavior: smooth;
+  background-color: #f8f9fa;
 }
-
-.hero {
-  height: 100vh;
-  background: linear-gradient(to right, #4facfe, #00f2fe);
+a {
+  color: #0d6efd;
+  text-decoration: none;
 }
-
-.profile-img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border: 4px solid white;
+a:hover {
+  text-decoration: underline;
 }
