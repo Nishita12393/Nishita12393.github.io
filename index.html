@@ -8,13 +8,40 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Your Name</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary text-white ms-2" href="Nishita_Thapa_CV.pdf" download>
+              My CV
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
   <div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center bg-light">
     <div class="card p-4 shadow-lg" style="max-width: 1000px; width: 100%;">
       <div class="row g-4 align-items-center">
 
         <!-- Profile Photo -->
         <div class="col-md-4 text-center">
-          <img src="images/My_Photo.jpg" class="img-fluid rounded-circle border border-3 border-primary" alt="Your Photo" style="width: 180px; height: 180px; object-fit: cover;" />
+          <img src="images/My_Photo.jpg" class="img-fluid rounded-circle border border-3 border-primary"
+            alt="Your Photo" style="width: 180px; height: 180px; object-fit: cover;" />
         </div>
 
         <!-- Content -->
@@ -22,30 +49,30 @@
           <h1 class="fw-bold">Nishita Thapa</h1>
           <h5 class="text-muted mb-3">Developer | Project Management</h5>
 
-          <!-- About -->
-          <p><strong>About Me:</strong> Passionate web developer with a love for clean design, smooth user experiences, and modern tech stacks like React and Bootstrap.</p>
+          <p id="about"><strong>About Me:</strong> Passionate web developer who loves building clean interfaces and learning new tech.</p>
+          <p><strong>Skills:</strong> HTML, CSS, JS, Bootstrap, Java, Git, Python, PHP</p>
 
-          <!-- Skills -->
-          <p><strong>Skills:</strong> HTML, CSS, JavaScript, Bootstrap, Git, PHP, Java,</p>
-
-          <!-- Projects -->
-          <p><strong>Projects:</strong></p>
+          <p id="projects"><strong>Projects:</strong></p>
           <ul class="list-unstyled mb-2">
             <li>🔗 <a href="https://github.com/your-username/project1" target="_blank">Project One</a></li>
             <li>🔗 <a href="https://github.com/your-username/project2" target="_blank">Project Two</a></li>
           </ul>
 
-          <!-- Contact -->
-          <p><strong>Contact:</strong></p>
+          <p id="contact"><strong>Contact:</strong></p>
           <ul class="list-unstyled">
-            <li>Email: <a href="mailto:your.email@example.com">nishitathapa02@gmail.com</a></li>
-            <li>GitHub: <a href="" target="_blank">Nishita12393</a></li>
-            <li>LinkedIn: <a href="" target="_blank">Nishita Thapa</a></li>
+            <li>Email: <a href="mailto:nishitathapa02@gmail.com">nishitathapa02@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/Nishita12393" target="_blank">Nishita 12393</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/nishita-thapa-01a650261/" target="_blank">your-profile</a></li>
           </ul>
         </div>
+
       </div>
     </div>
   </div>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Nishita Thapa. All rights reserved.</p>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
